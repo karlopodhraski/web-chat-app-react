@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Input from "./Input";
 import Messages from "./Messages";
+import Input from "./Input";
 
 function randomName() {
   const names = [
