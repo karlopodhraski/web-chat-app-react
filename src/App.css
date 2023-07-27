@@ -2,35 +2,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 150vh;
 }
 
 .App-header {
   background-color: #262626;
   overflow: visible;
-  width: 100%;
+  width: 150%;
   text-align: center;
   color: white;
 }
 
 .Messages-list {
-  padding: 20px 0;
-  max-width: 900px;
+  padding: 40px 0;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   list-style: none;
   padding-left: 0;
-  flex-grow: 1;
+  flex-grow: 2;
   overflow: auto;
 }
 
 .Messages-message {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .Messages-message.currentMember {
-  justify-content: flex-end;
   flex-direction: row-reverse;
   text-align: right;
 }
@@ -44,26 +43,26 @@
 }
 
 .Messages-message > .avatar {
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   display: inline-block;
-  margin: 0 10px -10px;
+  margin: 0 30px -30px;
 }
 
 .Message-content > .username {
   display: block;
-  color: gray;
-  font-size: 14px;
-  padding-bottom: 4px;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 
 .Message-content > .text {
   padding: 10px;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0;
-  border-radius: 12px;
-  background-color: cornflowerblue;
+  border-radius: 14px;
+  background-color: red;
   color: white;
   display: inline-block;
 }
@@ -74,26 +73,26 @@
 
 form {
   display: flex;
-  width: 100%;
+  width: 200%;
   justify-content: space-between;
-  max-width: 900px;
-  margin: 0 auto 40px;
+  max-width: 950px;
+  margin: 0 auto 50px;
 }
 
 input {
-  padding: 5px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 20px;
   border-radius: 8px;
-  border: 1px solid orangered;
+  border: 1px solid rgb(200, 255, 0);
   flex-grow: 1;
 }
 
 button {
   padding: 5px 10px;
-  font-size: 16px;
-  background-color: orangered;
+  font-size: 20px;
+  background-color: rgb(20, 0, 255);
   color: white;
   border: none;
-  border-radius: 8px;
-  margin-left: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
 }
